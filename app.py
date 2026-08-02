@@ -215,16 +215,16 @@ with tab3:
     selected_id = st.selectbox("Select CustomerID to find lookalikes:", df["CustomerID"].tolist(), index=0)
     top_n = st.slider("Number of Recommendations", min_value=1, max_value=10, value=5)
     
-    if st.button("Generate Recommendations"):
-        idx = df[df["CustomerID"] == selected_id].index[0]
-        distances, indices = nn_model.kneighbors([X_rec_scaled[idx]], n_neighbors=top_n + 1)
-        
-        rec_df = df.loc[indices[0][1:], ["CustomerID", "Gender", "Age", "Income", "Score", "Segment"]].copy()
-        rec_df["Similarity_Distance"] = distances[0][1:].round(4)
-        
-        target_cust = df[df["CustomerID"] == selected_id].iloc[0]
-        st.markdown(f"**Target Customer:** #{target_cust['CustomerID']} ({target_cust['Gender']}, Age {target_cust['Age']}, Income ${target_cust['Income']}k, Score {target_cust['Score']})")
-        st.dataframe(rec_df, use_container_width=True)
+    idx = df[df["CustomerID"] == selected_id].index[0]
+    distances, indices = nn_model.kneighbors([X_rec_scaled[idx]], n_neighbors=top_n + 1)
+    
+    rec_df = df.loc[indices[0][1:], ["CustomerID", "Gender", "Age", "Income", "Score", "Segment"]].copy()
+    rec_df["Similarity_Distance"] = distances[0][1:].round(4)
+    
+    target_cust = df[df["CustomerID"] == selected_id].iloc[0]
+    st.markdown(f"**Target Customer Selected:** #{target_cust['CustomerID']} ({target_cust['Gender']}, Age {target_cust['Age']}, Annual Income ${target_cust['Income']}k, Spending Score {target_cust['Score']})")
+    st.dataframe(rec_df, use_container_width=True)
+
 
 # Tab 4: Optimization Diagnostics
 with tab4:
