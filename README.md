@@ -2,7 +2,10 @@
 
 An end-to-end Machine Learning pipeline that performs unsupervised retail customer segmentation using **K-Means** and **DBSCAN** algorithms, coupled with an automated **Nearest Neighbors (k-NN)** recommendation engine to power hyper-targeted marketing campaigns.
 
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://share.streamlit.io/deploy?repository=OxDurgeshxO/MarketMatch-AI&branch=main&mainModule=app.py)
+
 ---
+
 
 ## 🌟 Key Features
 
