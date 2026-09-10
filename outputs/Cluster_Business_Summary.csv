@@ -1,0 +1,6 @@
+Customer_Segment,Customer_Count,Recency,Frequency,Monetary,Max_Cluster_Confidence,Percent_Of_Base
+⚠️ At-Risk Customers,919,135.25,8.24,1643.11,0.95,23.0
+⭐ Loyal Regulars,966,44.86,14.12,2442.26,0.98,24.2
+🌱 Potential Loyalists,816,11.8,2.22,415.5,1.0,20.4
+👑 Champions (Whales),585,13.04,28.88,6982.17,0.98,14.6
+💤 Hibernating / Lost,714,268.17,1.56,124.83,1.0,17.8

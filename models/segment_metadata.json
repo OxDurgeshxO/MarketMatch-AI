@@ -1,0 +1,58 @@
+{
+  "total_customers": 4000,
+  "optimal_k": 5,
+  "silhouette_score": 0.5497,
+  "features": [
+    "Recency",
+    "Frequency",
+    "Monetary"
+  ],
+  "is_rfm": true,
+  "segments": [
+    {
+      "Customer_Segment": "\u26a0\ufe0f At-Risk Customers",
+      "Customer_Count": 919,
+      "Recency": 135.25,
+      "Frequency": 8.24,
+      "Monetary": 1643.11,
+      "Max_Cluster_Confidence": 0.95,
+      "Percent_Of_Base": 23.0
+    },
+    {
+      "Customer_Segment": "\u2b50 Loyal Regulars",
+      "Customer_Count": 966,
+      "Recency": 44.86,
+      "Frequency": 14.12,
+      "Monetary": 2442.26,
+      "Max_Cluster_Confidence": 0.98,
+      "Percent_Of_Base": 24.2
+    },
+    {
+      "Customer_Segment": "\ud83c\udf31 Potential Loyalists",
+      "Customer_Count": 816,
+      "Recency": 11.8,
+      "Frequency": 2.22,
+      "Monetary": 415.5,
+      "Max_Cluster_Confidence": 1.0,
+      "Percent_Of_Base": 20.4
+    },
+    {
+      "Customer_Segment": "\ud83d\udc51 Champions (Whales)",
+      "Customer_Count": 585,
+      "Recency": 13.04,
+      "Frequency": 28.88,
+      "Monetary": 6982.17,
+      "Max_Cluster_Confidence": 0.98,
+      "Percent_Of_Base": 14.6
+    },
+    {
+      "Customer_Segment": "\ud83d\udca4 Hibernating / Lost",
+      "Customer_Count": 714,
+      "Recency": 268.17,
+      "Frequency": 1.56,
+      "Monetary": 124.83,
+      "Max_Cluster_Confidence": 1.0,
+      "Percent_Of_Base": 17.8
+    }
+  ]
+}
