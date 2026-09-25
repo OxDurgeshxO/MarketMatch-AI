@@ -204,9 +204,11 @@ nn_model.fit(X_scaled)
 # -----------------------------------------------------------------------------
 # 4. TOP HERO HEADER & OVERVIEW KPIS
 # -----------------------------------------------------------------------------
+st.sidebar.info("🏷️ BETA AUDIT PREVIEW - Live Verification Mode")
 st.markdown("""
 <div class="hero-box">
     <div style="margin-bottom: 8px;">
+        <span class="badge-pill" style="background: rgba(56, 189, 248, 0.3); border: 1px solid #38bdf8; color: #38bdf8;">🏷️ BETA AUDIT PREVIEW</span>
         <span class="badge-pill">🚀 ENTERPRISE ANALYTICS</span>
         <span class="badge-pill">🎯 RFM LOG-SCALED</span>
         <span class="badge-pill">🌌 3D PLOTLY ENGINE</span>
