@@ -151,3 +151,18 @@ MarketMatch-AI/
 ## 👤 Author
 **Durgesh**  
 GitHub: [@OxDurgeshxO](https://github.com/OxDurgeshxO)
+
+
+## 🧠 Machine Learning Pipeline Architecture
+
+```mermaid
+flowchart TD
+    Data["Raw Transactional E-Commerce Data"] --> RFM["RFM Feature Engineering (Recency, Frequency, Monetary)"]
+    RFM --> Scale["StandardScaler & PCA Dimensionality Reduction"]
+    Scale --> KM["K-Means Clustering (Centroid-based Segments)"]
+    Scale --> DB["DBSCAN Clustering (Density-based Outliers)"]
+    KM --> Val["Silhouette & Davies-Bouldin Metric Validation"]
+    DB --> Val
+    Val --> Rec["Nearest Neighbors Lookalike Recommendation Engine"]
+    Rec --> UI["Interactive Streamlit 3D Analytics Dashboard"]
+```
