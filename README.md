@@ -19,6 +19,10 @@
 ## 🌐 Live Interactive Studio
 👉 **[Open MarketMatch-AI Dashboard](https://oxdurgeshxo-marketmatch-ai-app-y8ysbm.streamlit.app/)**
 
+<p align="center">
+  <img src="outputs/RFM_Customer_Segments_3D.png" alt="MarketMatch-AI 3D Customer Segmentation" width="85%" />
+</p>
+
 ---
 
 ## 📌 Executive Overview
