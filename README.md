@@ -1,5 +1,10 @@
 # ⚡ MarketMatch-AI: Enterprise E-Commerce Customer Analytics & Lookalike Studio
 
+[![ML Pipeline CI](https://github.com/OxDurgeshxO/MarketMatch-AI/actions/workflows/ci.yml/badge.svg)](https://github.com/OxDurgeshxO/MarketMatch-AI/actions)
+[![Python 3.11](https://img.shields.io/badge/python-3.11-blue.svg)](https://www.python.org/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
+
 [![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://oxdurgeshxo-marketmatch-ai-app-y8ysbm.streamlit.app/)
 ![Python 3.11](https://img.shields.io/badge/Python-3.11-3776AB?logo=python&logoColor=white)
 ![Scikit-Learn](https://img.shields.io/badge/ML-Scikit--Learn-F7931E?logo=scikit-learn&logoColor=white)
